@@ -1,0 +1,28 @@
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+
+.card-custom{
+    background-color: #111111;
+    border: 1px solid #ff0000;
+    padding: 25px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.card-custom:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(255,0,0,0.3);
+}
+
+.card-custom h3{
+    color: #ff2e2e;
+    margin-bottom: 20px;
+}
+
+.card-custom ul{
+    line-height: 2;
+}

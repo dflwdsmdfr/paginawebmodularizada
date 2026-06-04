@@ -1,0 +1,45 @@
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+}
+
+.descripcion{
+    max-width: 600px;
+}
+
+.descripcion h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff2e2e;
+}
+
+.descripcion p{
+    line-height: 1.8;
+    color: #d0d0d0;
+    margin-bottom: 30px;
+}
+
+.botones{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.botones a{
+    text-decoration: none;
+    background-color: #990000;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.botones a:hover{
+    background-color: #ff0000;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255,0,0,0.5);
+}

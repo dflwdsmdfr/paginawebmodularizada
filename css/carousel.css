@@ -1,0 +1,14 @@
+.carousel-section{
+    padding: 30px;
+}
+
+.carousel{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(255,0,0,0.3);
+}
+
+.carousel-img{
+    height: 500px;
+    object-fit: cover;
+}
